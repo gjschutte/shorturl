@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1.
+    Url List
+  u1
+    each url, i in urllist
+      li
+        a(href="#{url.url}")= url.ObjectId

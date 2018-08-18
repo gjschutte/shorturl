@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1.
+    Site List
+  u1
+    each site, i in sitelist
+      li
+        '#{site.sitename}'
