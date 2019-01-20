@@ -1,0 +1,10 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+data/
+
+# Node modules #
+################
+node_modules/
